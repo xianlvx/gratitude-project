@@ -1665,7 +1665,7 @@ input, select, textarea {
        .dingir {
           margin: auto;
           display: block;
-          width: 100px;
+          max-width: 90px;
        }
 
        .extra-text {
