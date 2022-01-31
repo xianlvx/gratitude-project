@@ -296,6 +296,7 @@ input, select, textarea {
 
 	.align-center {
 		text-align: center;
+      margin-top: 30px;
 	}
 
 	.align-right {
@@ -303,8 +304,15 @@ input, select, textarea {
 	}
 
    .invoke {
-      font-family: 'Cormorant Garamond', serif;
-      font-style: italic;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #fffde8;
+      font-family: "Source Sans Pro", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.25rem;
+      font-size: 1.1rem;
+      line-height: 2;
    }
 
 /* Form */
@@ -1359,7 +1367,7 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.25rem;
-				font-size: 0.8rem;
+				font-size: 1.3rem;
 				line-height: 2;
 			}
 
@@ -1585,6 +1593,7 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+            align-items: center;
 			}
 
 			#main article .close {
@@ -1650,6 +1659,29 @@ input, select, textarea {
 			}
 
        }
+
+
+
+       .dingir {
+          margin: auto;
+          display: block;
+          width: 100px;
+       }
+
+       .extra-text {
+         margin-top: 30px;
+         margin-left: auto;
+         margin-right: auto;
+         color: #fffde8;
+         font-family: "Source Sans Pro", sans-serif;
+         text-transform: uppercase;
+         letter-spacing: 0.25rem;
+         font-size: 1rem;
+         line-height: 2;
+         text-align: center;
+       }
+
+
 
 /* Footer */
 
